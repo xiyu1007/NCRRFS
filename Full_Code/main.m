@@ -57,7 +57,7 @@ else
 end
 
 %% ------------------------------------------------------------------------
-%  Run LRTLS
+%  Run NCRRFS
 % -------------------------------------------------------------------------
 % run2() can be used for parameter grid search (varying two parameters at a time)
 % Parameters:
@@ -109,3 +109,4 @@ fprintf('Runtime: %.2fs\t %s \tAcc = %.4f (±%.4f)\n', ...
 if save_results
     recorder.save(result_file);
 end
+
